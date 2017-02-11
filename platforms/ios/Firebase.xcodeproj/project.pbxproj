@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		0A132A64B1D242A6AF3DBEE7 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FCF37ABB0E740D0A681E1F2 /* Icon-Small.png */; };
+		0A80369487B6434EAB75C9E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F91E32431A453BAC98DFD5 /* Default-568h@2x.png */; };
+		0D760EC31EAA4F51AF5E193E /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E15C5A12CB94B0AAE859CDB /* icon-76.png */; };
+		10ACE70B58BA4C6780D8E67C /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = BEFDE91C9BD547E59CF6E030 /* icon-60.png */; };
+		26845C00D88D444581C95505 /* Default-Landscape-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A063155B242A4E849832E638 /* Default-Landscape-667h@2x.png */; };
+		4A8D77FD66184EA598AD90A7 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D45A629D0D9C4FFF9E038222 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4AF07141EBC04F43AB7D5E9F /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1494EA1A94F42378FF25598 /* Icon-Small@2x.png */; };
+		51C1A21FD5954B9CBA31E004 /* Firebase.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 184C5E89FA9A4D398A535BC3 /* Firebase.entitlements */; };
+		5C23877FBA30428C9B8D9694 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0786DF672BD042FDB976A7FD /* GoogleService-Info.plist */; };
+		625ACF34D04D4363A495DD7F /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95E04BCBD7184077B8E9BC7B /* Default-Landscape@2x.png */; };
+		729A488E9029469584B4FC3B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EB45F3FCC0DA4E6EB0BEE14C /* icon.png */; };
+		7A804DC158F14707AF6CF7F8 /* Default-Landscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 421505A7EE904DC083C5068A /* Default-Landscape@3x.png */; };
+		7ACB123C947F48FBAD096DA4 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471BE39569F848F280626C94 /* icon-72@2x.png */; };
+		7D843CF45DF14C77A8C7827F /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 759F96EEDF6F4C18816C13B1 /* Default-Landscape.png */; };
+		82EFBE3B5F07480B9EBA703A /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BA54CBAFA94AE3AE010E08 /* Default-736h@3x.png */; };
+		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		8617C076829A4E7EBD30AC08 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 750A375A19B5481FBFC74370 /* Icon-Small-50@2x.png */; };
+		861BAC4150FF4518A01E4CE9 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45A629D0D9C4FFF9E038222 /* TNSWidgets.framework */; };
+		A17BE8C78FEA440DB2532B8A /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 526D82B865B54F53A8B60B99 /* icon-76@2x.png */; };
+		A1F1E9655D4946C89E0B1A83 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A083607C2217438C9D2DE1CC /* icon@2x.png */; };
+		AE75BCBAB3084DCA81BA01FB /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 226E5F81F1EE48DA99D74CF9 /* Icon-Small-50.png */; };
+		AEBDBD4626DD423E91F8C4A0 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB36355845E342E99E54C660 /* icon-40@2x.png */; };
+		AECFB5CEE56F431EBDC09B1C /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E035136C2C294A9FB427C8A8 /* Default-Portrait@2x.png */; };
+		B6DED1003E714034A0DF1038 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D485B462A35453B815FEC4D /* Default@2x.png */; };
+		C193AABAC0424122A5878ADE /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76DED8DCD3754C98B6D9F23F /* icon-60@2x.png */; };
+		C8ED19DAD5E3449A958B1E38 /* Default-Landscape-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33C6DB70A96C46568BC3C20C /* Default-Landscape-568h@2x.png */; };
+		C95A9B4807EA7052DC5A0E38 /* Pods_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E99C5B198AA031A87A197B /* Pods_Firebase.framework */; };
+		CC333B728D3A4668B7D4C426 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 62CD60F7E6014D80BB1CCE20 /* icon-72.png */; };
+		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
+		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
+		D1D8BA3F6B39415FBDA1A859 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3EB3487FF40449C4A926B464 /* build.xcconfig */; };
+		D344B7B1565A4A13BBB16737 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = E116A26A2F45432AB7E5AAD1 /* Default-Portrait.png */; };
+		D5F46E67CA614B8C8A47A02F /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E2A5E4C9074EAC9DCEFF67 /* Default-667h@2x.png */; };
+		E26A112D5E5E48E3AE1D94F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EB12CF4A8A75429388C58301 /* Default.png */; };
+		E64479EA79844AC8B8FD655A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5BE984EF4FB4AEEBD80692B /* LaunchScreen.xib */; };
+		EEB05E7128E34A34BCC01E79 /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FD69F85D10C471F9333959A /* icon-40.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85F5BDFC1A9363BE006B9701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4A8D77FD66184EA598AD90A7 /* TNSWidgets.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0786DF672BD042FDB976A7FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = "GoogleService-Info.plist"; path = "Firebase/Resources/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0FD69F85D10C471F9333959A /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40.png"; path = "Firebase/Resources/icon-40.png"; sourceTree = "<group>"; };
+		184C5E89FA9A4D398A535BC3 /* Firebase.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Firebase.entitlements; path = Firebase/Resources/Firebase.entitlements; sourceTree = "<group>"; };
+		226E5F81F1EE48DA99D74CF9 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "Firebase/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		33C6DB70A96C46568BC3C20C /* Default-Landscape-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-568h@2x.png"; path = "Firebase/Resources/Default-Landscape-568h@2x.png"; sourceTree = "<group>"; };
+		3EB3487FF40449C4A926B464 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = Firebase/Resources/build.xcconfig; sourceTree = "<group>"; };
+		421505A7EE904DC083C5068A /* Default-Landscape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@3x.png"; path = "Firebase/Resources/Default-Landscape@3x.png"; sourceTree = "<group>"; };
+		471BE39569F848F280626C94 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72@2x.png"; path = "Firebase/Resources/icon-72@2x.png"; sourceTree = "<group>"; };
+		4D485B462A35453B815FEC4D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Firebase/Resources/Default@2x.png"; sourceTree = "<group>"; };
+		50E99C5B198AA031A87A197B /* Pods_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		526D82B865B54F53A8B60B99 /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "Firebase/Resources/icon-76@2x.png"; sourceTree = "<group>"; };
+		52E2A5E4C9074EAC9DCEFF67 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "Firebase/Resources/Default-667h@2x.png"; sourceTree = "<group>"; };
+		62CD60F7E6014D80BB1CCE20 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Firebase/Resources/icon-72.png"; sourceTree = "<group>"; };
+		750A375A19B5481FBFC74370 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "Firebase/Resources/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		759F96EEDF6F4C18816C13B1 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "Firebase/Resources/Default-Landscape.png"; sourceTree = "<group>"; };
+		76DED8DCD3754C98B6D9F23F /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60@2x.png"; path = "Firebase/Resources/icon-60@2x.png"; sourceTree = "<group>"; };
+		7E15C5A12CB94B0AAE859CDB /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "Firebase/Resources/icon-76.png"; sourceTree = "<group>"; };
+		7FCF37ABB0E740D0A681E1F2 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Firebase/Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		858B832E18CA111C00AB12DE /* Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		858B833918CA111C00AB12DE /* Firebase-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Firebase-Info.plist"; sourceTree = "<group>"; };
+		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		858B833F18CA111C00AB12DE /* Firebase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Firebase-Prefix.pch"; sourceTree = "<group>"; };
+		858B843318CA22B800AB12DE /* Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95E04BCBD7184077B8E9BC7B /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "Firebase/Resources/Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		A063155B242A4E849832E638 /* Default-Landscape-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape-667h@2x.png"; path = "Firebase/Resources/Default-Landscape-667h@2x.png"; sourceTree = "<group>"; };
+		A083607C2217438C9D2DE1CC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Firebase/Resources/icon@2x.png"; sourceTree = "<group>"; };
+		A1494EA1A94F42378FF25598 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "Firebase/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		B5BE984EF4FB4AEEBD80692B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Firebase/Resources/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB36355845E342E99E54C660 /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-40@2x.png"; path = "Firebase/Resources/icon-40@2x.png"; sourceTree = "<group>"; };
+		BEFDE91C9BD547E59CF6E030 /* icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-60.png"; path = "Firebase/Resources/icon-60.png"; sourceTree = "<group>"; };
+		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
+		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
+		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
+		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
+		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
+		D45A629D0D9C4FFF9E038222 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		E035136C2C294A9FB427C8A8 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x.png"; path = "Firebase/Resources/Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		E116A26A2F45432AB7E5AAD1 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "Firebase/Resources/Default-Portrait.png"; sourceTree = "<group>"; };
+		E7BA54CBAFA94AE3AE010E08 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-736h@3x.png"; path = "Firebase/Resources/Default-736h@3x.png"; sourceTree = "<group>"; };
+		EB12CF4A8A75429388C58301 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Firebase/Resources/Default.png; sourceTree = "<group>"; };
+		EB45F3FCC0DA4E6EB0BEE14C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Firebase/Resources/icon.png; sourceTree = "<group>"; };
+		F4F91E32431A453BAC98DFD5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Firebase/Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B83F418CA22B800AB12DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				861BAC4150FF4518A01E4CE9 /* TNSWidgets.framework in Frameworks */,
+				C95A9B4807EA7052DC5A0E38 /* Pods_Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E7E0D4583DFB71681DD79E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		858B832518CA111C00AB12DE = {
+			isa = PBXGroup;
+			children = (
+				E070579D1B39A9D000214BF1 /* Resources */,
+				858B833718CA111C00AB12DE /* Firebase */,
+				858B833018CA111C00AB12DE /* Frameworks */,
+				858B832F18CA111C00AB12DE /* Products */,
+				20E7E0D4583DFB71681DD79E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		858B832F18CA111C00AB12DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				858B832E18CA111C00AB12DE /* Firebase.app */,
+				858B843318CA22B800AB12DE /* Firebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		858B833018CA111C00AB12DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D45A629D0D9C4FFF9E038222 /* TNSWidgets.framework */,
+				50E99C5B198AA031A87A197B /* Pods_Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		858B833718CA111C00AB12DE /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				CD45EE7A18DC2D5800FB50C0 /* app */,
+				858B833818CA111C00AB12DE /* Supporting Files */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		858B833818CA111C00AB12DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4743E1BA4855C0087EA85 /* build.xcconfig */,
+				CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */,
+				CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */,
+				858B833918CA111C00AB12DE /* Firebase-Info.plist */,
+				858B833A18CA111C00AB12DE /* InfoPlist.strings */,
+				CD62955C1BB2678900AE3A93 /* main.m */,
+				858B833F18CA111C00AB12DE /* Firebase-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E070579D1B39A9D000214BF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4F91E32431A453BAC98DFD5 /* Default-568h@2x.png */,
+				52E2A5E4C9074EAC9DCEFF67 /* Default-667h@2x.png */,
+				E7BA54CBAFA94AE3AE010E08 /* Default-736h@3x.png */,
+				33C6DB70A96C46568BC3C20C /* Default-Landscape-568h@2x.png */,
+				A063155B242A4E849832E638 /* Default-Landscape-667h@2x.png */,
+				759F96EEDF6F4C18816C13B1 /* Default-Landscape.png */,
+				95E04BCBD7184077B8E9BC7B /* Default-Landscape@2x.png */,
+				421505A7EE904DC083C5068A /* Default-Landscape@3x.png */,
+				E116A26A2F45432AB7E5AAD1 /* Default-Portrait.png */,
+				E035136C2C294A9FB427C8A8 /* Default-Portrait@2x.png */,
+				EB12CF4A8A75429388C58301 /* Default.png */,
+				4D485B462A35453B815FEC4D /* Default@2x.png */,
+				0786DF672BD042FDB976A7FD /* GoogleService-Info.plist */,
+				226E5F81F1EE48DA99D74CF9 /* Icon-Small-50.png */,
+				750A375A19B5481FBFC74370 /* Icon-Small-50@2x.png */,
+				7FCF37ABB0E740D0A681E1F2 /* Icon-Small.png */,
+				A1494EA1A94F42378FF25598 /* Icon-Small@2x.png */,
+				B5BE984EF4FB4AEEBD80692B /* LaunchScreen.xib */,
+				3EB3487FF40449C4A926B464 /* build.xcconfig */,
+				0FD69F85D10C471F9333959A /* icon-40.png */,
+				BB36355845E342E99E54C660 /* icon-40@2x.png */,
+				BEFDE91C9BD547E59CF6E030 /* icon-60.png */,
+				76DED8DCD3754C98B6D9F23F /* icon-60@2x.png */,
+				62CD60F7E6014D80BB1CCE20 /* icon-72.png */,
+				471BE39569F848F280626C94 /* icon-72@2x.png */,
+				7E15C5A12CB94B0AAE859CDB /* icon-76.png */,
+				526D82B865B54F53A8B60B99 /* icon-76@2x.png */,
+				EB45F3FCC0DA4E6EB0BEE14C /* icon.png */,
+				A083607C2217438C9D2DE1CC /* icon@2x.png */,
+				184C5E89FA9A4D398A535BC3 /* Firebase.entitlements */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		858B83EF18CA22B800AB12DE /* Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "Firebase" */;
+			buildPhases = (
+				A43958BB25DC0D0F85C587B3 /* [CP] Check Pods Manifest.lock */,
+				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
+				858B83F218CA22B800AB12DE /* Sources */,
+				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
+				858B83F418CA22B800AB12DE /* Frameworks */,
+				858B842C18CA22B800AB12DE /* Resources */,
+				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
+				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+				2F90BB8BD8F333708796D7AE /* [CP] Embed Pods Frameworks */,
+				BA80DB8F17FA58D28034523E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firebase;
+			productName = JDBridgeApp;
+			productReference = 858B843318CA22B800AB12DE /* Firebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		858B832618CA111C00AB12DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNS;
+				LastUpgradeCheck = 500;
+				ORGANIZATIONNAME = Telerik;
+				TargetAttributes = {
+					858B83EF18CA22B800AB12DE = {
+						DevelopmentTeam = FCFUAUMXPQ;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 858B832918CA111C00AB12DE /* Build configuration list for PBXProject "Firebase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 858B832518CA111C00AB12DE;
+			productRefGroup = 858B832F18CA111C00AB12DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				858B83EF18CA22B800AB12DE /* Firebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		858B842C18CA22B800AB12DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
+				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
+				0A80369487B6434EAB75C9E2 /* Default-568h@2x.png in Resources */,
+				D5F46E67CA614B8C8A47A02F /* Default-667h@2x.png in Resources */,
+				82EFBE3B5F07480B9EBA703A /* Default-736h@3x.png in Resources */,
+				C8ED19DAD5E3449A958B1E38 /* Default-Landscape-568h@2x.png in Resources */,
+				26845C00D88D444581C95505 /* Default-Landscape-667h@2x.png in Resources */,
+				7D843CF45DF14C77A8C7827F /* Default-Landscape.png in Resources */,
+				625ACF34D04D4363A495DD7F /* Default-Landscape@2x.png in Resources */,
+				7A804DC158F14707AF6CF7F8 /* Default-Landscape@3x.png in Resources */,
+				D344B7B1565A4A13BBB16737 /* Default-Portrait.png in Resources */,
+				AECFB5CEE56F431EBDC09B1C /* Default-Portrait@2x.png in Resources */,
+				E26A112D5E5E48E3AE1D94F8 /* Default.png in Resources */,
+				B6DED1003E714034A0DF1038 /* Default@2x.png in Resources */,
+				5C23877FBA30428C9B8D9694 /* GoogleService-Info.plist in Resources */,
+				AE75BCBAB3084DCA81BA01FB /* Icon-Small-50.png in Resources */,
+				8617C076829A4E7EBD30AC08 /* Icon-Small-50@2x.png in Resources */,
+				0A132A64B1D242A6AF3DBEE7 /* Icon-Small.png in Resources */,
+				4AF07141EBC04F43AB7D5E9F /* Icon-Small@2x.png in Resources */,
+				E64479EA79844AC8B8FD655A /* LaunchScreen.xib in Resources */,
+				D1D8BA3F6B39415FBDA1A859 /* build.xcconfig in Resources */,
+				EEB05E7128E34A34BCC01E79 /* icon-40.png in Resources */,
+				AEBDBD4626DD423E91F8C4A0 /* icon-40@2x.png in Resources */,
+				10ACE70B58BA4C6780D8E67C /* icon-60.png in Resources */,
+				C193AABAC0424122A5878ADE /* icon-60@2x.png in Resources */,
+				CC333B728D3A4668B7D4C426 /* icon-72.png in Resources */,
+				7ACB123C947F48FBAD096DA4 /* icon-72@2x.png in Resources */,
+				0D760EC31EAA4F51AF5E193E /* icon-76.png in Resources */,
+				A17BE8C78FEA440DB2532B8A /* icon-76@2x.png in Resources */,
+				729A488E9029469584B4FC3B /* icon.png in Resources */,
+				A1F1E9655D4946C89E0B1A83 /* icon@2x.png in Resources */,
+				51C1A21FD5954B9CBA31E004 /* Firebase.entitlements in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F90BB8BD8F333708796D7AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase/Pods-Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43958BB25DC0D0F85C587B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA80DB8F17FA58D28034523E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Firebase/Pods-Firebase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PostBuild";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-post-build\"";
+			showEnvVarsInLog = 0;
+		};
+		CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "NativeScript PreLink";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		858B83F218CA22B800AB12DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		858B833A18CA111C00AB12DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				858B833B18CA111C00AB12DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		858B835818CA111C00AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		858B835918CA111C00AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		858B843118CA22B800AB12DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				CODE_SIGN_ENTITLEMENTS = Firebase/Resources/Firebase.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lu Zheng (Y6YU2K7XW2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lu Zheng (Y6YU2K7XW2)";
+				DEVELOPMENT_TEAM = FCFUAUMXPQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Firebase/Firebase-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Firebase/Firebase-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Firebase;
+				PROVISIONING_PROFILE = "55efb15e-d1b9-4b00-bff3-f4a3e4b2d53d";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_NativeScriptFirebase;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		858B843218CA22B800AB12DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_MODULES_AUTOLINK = NO;
+				CODE_SIGN_ENTITLEMENTS = Firebase/Resources/Firebase.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lu Zheng (Y6YU2K7XW2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lu Zheng (Y6YU2K7XW2)";
+				DEVELOPMENT_TEAM = FCFUAUMXPQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Firebase/Firebase-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Firebase/Firebase-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Firebase;
+				PROVISIONING_PROFILE = "55efb15e-d1b9-4b00-bff3-f4a3e4b2d53d";
+				PROVISIONING_PROFILE_SPECIFIER = Dev_NativeScriptFirebase;
+				VALID_ARCHS = "armv7 arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		858B832918CA111C00AB12DE /* Build configuration list for PBXProject "Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B835818CA111C00AB12DE /* Debug */,
+				858B835918CA111C00AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858B843118CA22B800AB12DE /* Debug */,
+				858B843218CA22B800AB12DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 858B832618CA111C00AB12DE /* Project object */;
+}
