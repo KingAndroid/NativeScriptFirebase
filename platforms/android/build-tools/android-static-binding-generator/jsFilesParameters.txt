@@ -1,0 +1,1 @@
+/Users/admin/Desktop/WORK/Firebase/platforms/android/src/main/assets/app/app.js

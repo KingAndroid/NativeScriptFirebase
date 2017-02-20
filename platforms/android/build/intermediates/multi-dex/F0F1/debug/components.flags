@@ -1,0 +1,105 @@
+-injars /Users/admin/Desktop/WORK/Firebase/platforms/android/build/intermediates/transforms/jarMerging/F0F1/debug/jars/1/1f/combined.jar
+-outjars /Users/admin/Desktop/WORK/Firebase/platforms/android/build/intermediates/multi-dex/F0F1/debug/componentClasses.jar
+
+-libraryjars /Volumes/AndSDK_osx/sdk/build-tools/25.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration /Users/admin/Desktop/WORK/Firebase/platforms/android/build/intermediates/multi-dex/F0F1/debug/components.flags
+
+
+-keep class com.tns.NativeScriptApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.tns.NativeScriptActivity {
+    <init>();
+}
+
+-keep class com.tns.ErrorReportActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver {
+    <init>();
+}
+
+-keep class com.google.android.gms.measurement.AppMeasurementService {
+    <init>();
+}
+
+-keep class com.google.firebase.provider.FirebaseInitProvider {
+    <init>();
+}
+
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver {
+    <init>();
+}
+
+-keep class com.google.firebase.iid.FirebaseInstanceIdInternalReceiver {
+    <init>();
+}
+
+-keep class com.google.firebase.iid.FirebaseInstanceIdService {
+    <init>();
+}
+
+-keep class com.google.android.gms.common.api.GoogleApiActivity {
+    <init>();
+}
+
+-keep class com.google.firebase.messaging.FirebaseMessagingService {
+    <init>();
+}
+
+-keep class com.facebook.FacebookActivity {
+    <init>();
+}
+
+-keep class com.facebook.CustomTabMainActivity {
+    <init>();
+}
+
+-keep class com.facebook.internal.FacebookInitProvider {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity {
+    <init>();
+}
+
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService {
+    <init>();
+}
+
+-keep class org.nativescript.plugins.firebase.MyFirebaseMessagingService {
+    <init>();
+}
+
+-keep class org.nativescript.plugins.firebase.MyFirebaseInstanceIDService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "779353066314",
+    "firebase_url": "https://nativescript-firebase.firebaseio.com",
+    "project_id": "nativescript-firebase",
+    "storage_bucket": "nativescript-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779353066314:android:fb32e6c1eea3fc78",
+        "android_client_info": {
+          "package_name": "com.galtsoft.test.NativeScript.Firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779353066314-lt54olqqpnqpc5p66jfhk0qfalnmiu0m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.galtsoft.test.NativeScript.Firebase",
+            "certificate_hash": "0E2A1A984C42D0FB55CFFB7115C31DC75A0B525A"
+          }
+        },
+        {
+          "client_id": "779353066314-b795q2irua8ism5d5fp7mvlpps01equ5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7H3WmCam9_neaKEda8WqgwMV7Q8N5cug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779353066314-b795q2irua8ism5d5fp7mvlpps01equ5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "779353066314-022tat1aqh0bfi58882pu9gvvgt9mis7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.galtsoft.test.NativeScript.Firebase"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

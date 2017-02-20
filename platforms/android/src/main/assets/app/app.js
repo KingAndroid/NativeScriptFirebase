@@ -1,0 +1,18 @@
+"use strict";
+var app = require("application");
+var firebase = require("nativescript-plugin-firebase");
+app.cssFile = "./app.css";
+app.start({ moduleName: "main-page" });
+firebase.init({
+    onPushTokenReceivedCallback: function (token) {
+        console.log("Firebase plugin received a push token: " + token);
+    },
+    onMessageReceivedCallback: function (message) {
+        console.log("----- message received: " + message);
+    }
+}).then(function (result) {
+    console.log("Firebase is ready");
+}, function (error) {
+    console.log("firebase.init error: " + error);
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiYXBwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxpQ0FBb0M7QUFDcEMsdURBQTBEO0FBRTFELEdBQUcsQ0FBQyxPQUFPLEdBQUcsV0FBVyxDQUFDO0FBQzFCLEdBQUcsQ0FBQyxLQUFLLENBQUMsRUFBRSxVQUFVLEVBQUUsV0FBVyxFQUFFLENBQUMsQ0FBQztBQUV2QyxRQUFRLENBQUMsSUFBSSxDQUFDO0lBQ1YsMkJBQTJCLEVBQUUsVUFBVSxLQUFLO1FBQ3hDLE9BQU8sQ0FBQyxHQUFHLENBQUMseUNBQXlDLEdBQUcsS0FBSyxDQUFDLENBQUM7SUFDbkUsQ0FBQztJQUNELHlCQUF5QixFQUFFLFVBQVUsT0FBTztRQUN4QyxPQUFPLENBQUMsR0FBRyxDQUFDLDBCQUEwQixHQUFHLE9BQU8sQ0FBQyxDQUFDO0lBQ3RELENBQUM7Q0FDSixDQUFDLENBQUMsSUFBSSxDQUNILFVBQVUsTUFBTTtJQUNaLE9BQU8sQ0FBQyxHQUFHLENBQUMsbUJBQW1CLENBQUMsQ0FBQztBQUNyQyxDQUFDLEVBQ0QsVUFBVSxLQUFLO0lBQ1gsT0FBTyxDQUFDLEdBQUcsQ0FBQyx1QkFBdUIsR0FBRyxLQUFLLENBQUMsQ0FBQztBQUNqRCxDQUFDLENBQ0osQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBhcHAgPSByZXF1aXJlKFwiYXBwbGljYXRpb25cIik7XG5pbXBvcnQgZmlyZWJhc2UgPSByZXF1aXJlKFwibmF0aXZlc2NyaXB0LXBsdWdpbi1maXJlYmFzZVwiKTtcblxuYXBwLmNzc0ZpbGUgPSBcIi4vYXBwLmNzc1wiO1xuYXBwLnN0YXJ0KHsgbW9kdWxlTmFtZTogXCJtYWluLXBhZ2VcIiB9KTtcblxuZmlyZWJhc2UuaW5pdCh7XG4gICAgb25QdXNoVG9rZW5SZWNlaXZlZENhbGxiYWNrOiBmdW5jdGlvbiAodG9rZW4pIHtcbiAgICAgICAgY29uc29sZS5sb2coXCJGaXJlYmFzZSBwbHVnaW4gcmVjZWl2ZWQgYSBwdXNoIHRva2VuOiBcIiArIHRva2VuKTtcbiAgICB9LFxuICAgIG9uTWVzc2FnZVJlY2VpdmVkQ2FsbGJhY2s6IGZ1bmN0aW9uIChtZXNzYWdlKSB7XG4gICAgICAgIGNvbnNvbGUubG9nKFwiLS0tLS0gbWVzc2FnZSByZWNlaXZlZDogXCIgKyBtZXNzYWdlKTtcbiAgICB9XG59KS50aGVuKFxuICAgIGZ1bmN0aW9uIChyZXN1bHQpIHtcbiAgICAgICAgY29uc29sZS5sb2coXCJGaXJlYmFzZSBpcyByZWFkeVwiKTtcbiAgICB9LFxuICAgIGZ1bmN0aW9uIChlcnJvcikge1xuICAgICAgICBjb25zb2xlLmxvZyhcImZpcmViYXNlLmluaXQgZXJyb3I6IFwiICsgZXJyb3IpO1xuICAgIH1cbik7Il19
